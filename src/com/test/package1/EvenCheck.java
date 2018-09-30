@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class EvenCheck {
 	public static void main(String[] abc) {
+		
 		Scanner userInput = new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		while (!userInput.hasNextInt()) {
