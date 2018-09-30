@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class EvenCheck {
 	public static void main(String[] abc) {
 		Scanner userInput = new Scanner(System.in);
-		int enteredNumber;
 		System.out.print("Enter a number: ");
 		while (!userInput.hasNextInt()) {
 			System.out.println("Please enter a numeric value: ");
